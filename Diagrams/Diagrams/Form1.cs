@@ -28,9 +28,13 @@ namespace Diagrams
 
         private void button1_Click(object sender, EventArgs e)
         {
+            c.Add(new Circle(int.Parse(numericUpDown1.Value.ToString()), int.Parse(numericUpDown2.Value.ToString()), int.Parse(numericUpDown3.Value.ToString()), col));
+
             Graphics graphics = CreateGraphics();
 
-            graphics.DrawEllipse(new Pen(Color.Red,20),)
+
+            graphics.DrawEllipse(new Pen(col, 20),c[0].x,c[0].y,c[0].rad, c[0].rad);
+            c.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,10 +46,10 @@ namespace Diagrams
     }
     public class Circle
     {
-        int x;
-        int y;
-        int rad;
-        Color color;
+      public  int x;
+       public int y;
+      public  int rad;
+        public Color color;
         public Circle(int _x, int _y, int _rad, Color c)
         {
             x = _x;
