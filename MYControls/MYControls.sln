@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYControls", "MYControls\MYControls.csproj", "{2BBBD1D1-A4EB-48FE-A536-F2BB9C7276E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BBBD1D1-A4EB-48FE-A536-F2BB9C7276E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBBD1D1-A4EB-48FE-A536-F2BB9C7276E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBBD1D1-A4EB-48FE-A536-F2BB9C7276E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBBD1D1-A4EB-48FE-A536-F2BB9C7276E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F873D7A-F915-478C-A9C5-F40D3E98E964}
+	EndGlobalSection
+EndGlobal
